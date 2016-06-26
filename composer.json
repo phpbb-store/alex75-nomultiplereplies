@@ -1,0 +1,34 @@
+{
+    "name": "alex75/nomultiplereplies",
+    "type": "phpbb-extension",
+    "description": "remove reply button in last post for last poster",
+    "homepage": "",
+    "version": "1.0.3",
+    "time": "2016-06-26",
+    "keywords": "",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Alessandro DI BENEDETTO",
+            "username": "alex75",
+            "email": "alex@phpbb-store.it",
+            "homepage": "http://www.phpbb-store.it",
+            "role": "developer extension"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpbb/phpbb": ">=3.1.1,<3.2.0@dev"
+    },
+    "extra": {
+        "display-name": "No Multiple replies",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.1,<3.2.0@dev"
+        },
+        "version-check": {
+            "host": "www.phpbb-store.it",
+            "directory": "/versioncheck",
+            "filename": "nomultiplereplies__version_check.json"
+        }
+    }
+}
