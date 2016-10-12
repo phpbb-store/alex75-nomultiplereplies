@@ -3,8 +3,8 @@
     "type": "phpbb-extension",
     "description": "remove reply button in last post for last poster",
     "homepage": "",
-    "version": "1.0.3",
-    "time": "2016-06-26",
+    "version": "1.0.4",
+    "time": "2016-10-12",
     "keywords": "",
     "license": "GPL-2.0",
     "authors": [
