@@ -1,0 +1,5 @@
+services:
+    alex75.nomultiplereplies.listener:
+        class: alex75\nomultiplereplies\event\listener
+        tags:
+            - { name: event.listener }
